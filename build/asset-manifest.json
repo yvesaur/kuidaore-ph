@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e636b6d8.css",
+    "main.js": "/static/js/main.105d951e.js",
+    "static/media/rest1.jpg": "/static/media/rest1.0af9d51943ce85e61fa1.jpg",
+    "static/media/specialoffer-banner.jpg": "/static/media/specialoffer-banner.cea4834ad65461e3701a.jpg",
+    "static/media/cart.jpg": "/static/media/cart.221ec9db62f558f647b1.jpg",
+    "static/media/bento-flip-card.jpeg": "/static/media/bento-flip-card.14420787dcbd49990977.jpeg",
+    "static/media/bento.jpg": "/static/media/bento.9ff95dbda4fbdbfda6c6.jpg",
+    "static/media/menu.jpeg": "/static/media/menu.3c1d9974cf916c17506c.jpeg",
+    "static/media/offer.jpg": "/static/media/offer.a4df033d81dc7db0adb6.jpg",
+    "static/media/orders.jpg": "/static/media/orders.410f5ae646e1df4dde83.jpg",
+    "static/media/kuidaore-header.jpg": "/static/media/kuidaore-header.2f8f202e9ad6357c3fed.jpg",
+    "static/media/birthday.jpg": "/static/media/birthday.b543144338d3aabe5dfa.jpg",
+    "static/media/ramen.png": "/static/media/ramen.0163d55f193f748e2909.png",
+    "static/media/rest4.jpg": "/static/media/rest4.b546a9429f4132755f20.jpg",
+    "static/media/rest3.jpg": "/static/media/rest3.0275c356e87773eae2b4.jpg",
+    "static/media/rest2.JPG": "/static/media/rest2.dff4b3df865045e83525.JPG",
+    "static/media/sushi-offer.jpg": "/static/media/sushi-offer.9c04043c4715d914e267.jpg",
+    "static/media/menu-items-bg.jpg": "/static/media/menu-items-bg.a067c93cbc279b526672.jpg",
+    "static/media/order_online.jpg": "/static/media/order_online.fb43649a4412aaea4587.jpg",
+    "static/media/meat-offer.jpg": "/static/media/meat-offer.b61adef1846e316cce16.jpg",
+    "static/media/kudaoire-logo.png": "/static/media/kudaoire-logo.03142a4917a550ab3256.png",
+    "static/media/delivery.png": "/static/media/delivery.5732185aa52f495b216e.png",
+    "static/media/menu.png": "/static/media/menu.6eef492f53fd57232645.png",
+    "static/media/miso-offer.jpg": "/static/media/miso-offer.743cfbca4e295e3c050e.jpg",
+    "index.html": "/index.html",
+    "main.e636b6d8.css.map": "/static/css/main.e636b6d8.css.map",
+    "main.105d951e.js.map": "/static/js/main.105d951e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e636b6d8.css",
+    "static/js/main.105d951e.js"
+  ]
+}

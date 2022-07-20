@@ -2,7 +2,11 @@ import React,{Component} from 'react';
 import './orderForm.css';
 import {Container,Row,Col} from 'reactstrap';
 
+
 class  orderForm extends Component{
+
+    
+
     state={
         name:"",
         phone:"",
@@ -33,7 +37,9 @@ class  orderForm extends Component{
     paymentStatusHandler=(e)=>{
         this.setState({paymentStatus:e.target.value});
     }
+    
     render(){
+
         var checkOut={
             name:this.state.name,
             phone:this.state.number,
@@ -111,9 +117,10 @@ class  orderForm extends Component{
                     </Row>
                 </Container>
                 </div>
-                <button type="button" onClick={()=>this.props.place({checkOut})}>Place Order</button>
-            </form>
-            
+                <button type="button1" onClick={()=>{this.props.place({checkOut})}}>Place Order </button>
+
+
+            </form>    
             <p className="OrderFormNotice">*Payment will be takes as Cash On delivery and GCASH</p>
         </div>
     );

@@ -23,7 +23,8 @@ class OrderOnlinem extends Component {
                 copy.user.geo.long=data.coords.longitude
             });
             if (this.props.data.length > 0) {
-                axios.post("https://kuidaore-phm-default-rtdb.asia-southeast1.firebasedatabase.app/.json", copy).then(()=>alert("Your Order is Placed!"));
+                axios.post("https://kuidaore-phm-default-rtdb.asia-southeast1.firebasedatabase.app/.json", copy).then(()=>{alert("Your Order is Placed!");window.location.reload()});
+ 
             }
             else {
                 alert("Please select some items from Menu first");
