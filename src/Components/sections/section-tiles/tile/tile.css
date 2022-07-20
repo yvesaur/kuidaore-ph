@@ -1,0 +1,56 @@
+.tile{
+    font-family: 'Times New Roman', Times, serif;
+    height:270px;
+    width:auto;
+    margin-top:30px;
+    min-width:200px;
+    padding:20px 10px;
+    display: inline-block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./bento.jpg");
+    color:#fff;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s ease;
+    border: 3px solid #d11002;
+    border-radius: 20px;
+}
+.nd1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./bento.jpg");
+}
+.nd2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./order_online.jpg");
+}
+.nd3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./birthday.jpg");
+}
+.of1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./sushi-offer.jpg");
+}
+.of2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./meat-offer.jpg");
+}
+.of3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./miso-offer.jpg");
+}
+.tile:hover{
+    margin-top:0px;
+    box-shadow: 0 20px 20px #747474;
+}
+.titleHead{
+    padding-top:0px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:140%;
+    color: #d11002;
+}
+.titleContent{
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 120%;
+    font-weight: 400;
+}
+.titleButton{
+    margin-top: auto;
+    
+}

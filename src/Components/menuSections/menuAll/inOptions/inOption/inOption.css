@@ -1,0 +1,98 @@
+.inOption{
+    margin:20px 7px;
+    padding:10px 3px;
+    height:auto;
+    display: inline-block;
+    min-height: 380px;
+    transition: 0.4s ease all;
+    width:300px;
+    /* min-width: 300px;
+    max-width: 300px; */
+    color:#fff;
+    /* background-color: #fff; */
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./menu-items-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 10px 10px #0b0b0b;
+    font-family: 'Times New Roman', Times, serif;
+}
+.inOption:hover{
+    box-shadow: 0 20px 20px #0b0b0b;
+    
+}
+
+.inHead{
+    text-transform: capitalize;
+    font-size: 140%;
+    font-weight: bold;
+    background-color: #0b0b0b;
+}
+.inContent{
+    margin:4px auto;
+    letter-spacing: 1px;
+    font-size:80%;
+}
+.inPrice{
+    margin:0;
+    font-weight: bold;
+    color:#fff;
+    font-size:120%;
+}
+.inImgBox{
+    height:180px;
+    width:auto;
+    padding:0px 5px;
+    margin:5px 10px;
+}
+.inImgBox img{
+    height: 100%;
+    width: 100%;
+}
+.customize{
+    display: block;
+    opacity: 0.3;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7));
+    opacity: 0.8;
+    color:#fff;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.customize:hover{
+    color:#D11002;
+    font-weight: bold;
+}
+.inOption a:link,.inOption a:visited{
+    text-decoration:none;
+    color:#fff;
+    border-radius: 200px;
+    padding:3px 10px;
+    background-color: #D11002;
+    transition: all ease 0.4s;
+    margin:0 7px;
+}
+.inOption a:hover,.inOption a:active{
+    background-color: #8F0700;
+}
+.inOption .active{
+    background-color: #8F0700;
+    color:#14a76c;
+}
+.showCustomize{
+    height: 100%;
+    position: static;
+    width: 100%;
+    opacity: 0.8;
+    background-color:#fff;
+}
+.inOpButton{
+    transition: all 0.4s ease;
+    background-color:#D11002;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+    border-radius:200px;
+    padding:1px 10px;
+}
+.inOpButton:hover{
+    background-color: #8F0700;
+}

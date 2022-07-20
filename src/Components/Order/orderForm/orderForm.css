@@ -1,0 +1,76 @@
+.OrderForm {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.OrderForm button {
+  background-color: #D11002;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border: 0;
+  transition: all ease 0.4s;
+  cursor: pointer;
+}
+.OrderForm button:hover {
+  box-shadow: 0 6px 6px #0b5b3b;
+  background-color: #8F0700;
+}
+.OrderForm form legend p {
+  width: 100%;
+  font-size: 80%;
+  float: right;
+  text-align: right;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.form__container {
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: grey; */
+}
+.form__container {
+  @media (max-width: 600px) {
+    width: 75%;
+  }
+}
+.OrderFormHead {
+    padding-top: 15px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.OrderForm form input {
+  font-size: 80%;
+  /* text-align: center; */
+  padding: 3px 8px;
+  border-radius: 5px;
+  width: 80%;
+  float: left;
+  /* border:1px solid #ff652f; */
+  border: none;
+  margin-left: 30px;
+}
+.OrderForm form input:focus {
+  outline: none;
+  border: 1px solid #ff652f;
+  background-color: #f5f5f5;
+}
+@media screen and (max-width: 660px) {
+  .OrderForm form input {
+    width: 155px;
+  }
+}
+.OrderFormHead {
+  text-transform: capitalize;
+  font-size: 140%;
+}
+.OrderFormNotice {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 100%;
+}
+@media screen and (max-width: 660px) {
+  .OrderForm form legend p {
+    font-size: 60%;
+  }
+}
