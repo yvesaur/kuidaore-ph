@@ -143,7 +143,7 @@ class toolbar extends Component {
                                     
                                     <Col>
                                         <div className="smallImgBox">
-                                            <img src={offer} alt="An Icon" />
+                                            <img src={delivery} alt="An Icon" />
                                         </div>
                                     </Col>
                                     <Col>
@@ -160,7 +160,7 @@ class toolbar extends Component {
                                     
                                     <Col>
                                         <div className="smallImgBox">
-                                            <img src={contact} alt="An Icon" />
+                                            <img src={offer} alt="An Icon" />
                                         </div>
                                     </Col>
                                     <Col>
