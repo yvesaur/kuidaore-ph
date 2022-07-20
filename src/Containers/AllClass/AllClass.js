@@ -15,7 +15,7 @@ class allClass extends Component{
         loaded:false
       };
       componentDidMount(){
-        axios.get("https://kuidaore-ph-test1-default-rtdb.asia-southeast1.firebasedatabase.app/.json").then((data)=>{
+        axios.get("https://kuidaore-phm-default-rtdb.asia-southeast1.firebasedatabase.app/.json").then((data)=>{
             this.setState({data:data.data,loaded:true});
         }).catch(err=>console.log("Some Error")).then(console.log("Let's try this "));
       }

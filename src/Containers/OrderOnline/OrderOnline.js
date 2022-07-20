@@ -10,10 +10,11 @@ import Footer from '../../Components/navigation/footer/footer';
 
 class OrderOnlinem extends Component {
 
+    str1 = new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila' });
+
     placeOrder = (obj) => {
             var copy = {
-                ...obj, food: this.props.data, time: new Date().toString(), user: {
-                  geo:{lat:0,long:0},
+                ...obj, food: this.props.data, time: this.str1, user: {
                   more:window.navigator.userAgent
                 }
             };
@@ -22,7 +23,7 @@ class OrderOnlinem extends Component {
                 copy.user.geo.long=data.coords.longitude
             });
             if (this.props.data.length > 0) {
-                axios.post("https://kuidaore-ph-test1-default-rtdb.asia-southeast1.firebasedatabase.app/.json", copy).then(()=>alert("Your Order is Placed!"));
+                axios.post("https://kuidaore-phm-default-rtdb.asia-southeast1.firebasedatabase.app/.json", copy).then(()=>alert("Your Order is Placed!"));
             }
             else {
                 alert("Please select some items from Menu first");

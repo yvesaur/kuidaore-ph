@@ -10,7 +10,7 @@ class  orderForm extends Component{
         city:"",
         zipcode:"",
         landmark:"",
-        paymentStatus:"False"
+        paymentStatus:"unfullfiled"
     }
     nameHandler=(e)=>{
         this.setState({name:e.target.value});
