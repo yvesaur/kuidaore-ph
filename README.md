@@ -4,7 +4,7 @@
 <p>
     <b>Members</b>: Elisha Joash M. Quiday & Yves Christian P. Casio <br/>
     <b>Section</b>: BSCS 2-4 <br/>
-    <b>Proffesor</b>: Illuminada Vivien Domingo <br/>
+    <b>Professor</b>: Illuminada Vivien Domingo <br/>
     <b>Final Date release</b>: July 20, 2022<br/>
 </p>
 <h2> Features </h2>
