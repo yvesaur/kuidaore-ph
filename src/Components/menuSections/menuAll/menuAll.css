@@ -2,31 +2,16 @@
     padding:20px auto;
     font-family:'Times New Roman', Times, serif;
 }
-.addCustomization{
-    height:400px;
-    color:#fff;
-    width:70vw;
-    background-image: linear-gradient(to right, #ff652f , #d93800);
-    z-index: 600;
-    top:0;
-    left:0;
-    position: absolute;
-}
+
 .xyz{
     float:left;
 }
-.CustomizationHeader{
-    font-size:140%;
-}
+
 input[select]{
     background-color: aqua;
 
 }
-.addCustomization button{
-    margin:10px 10px;
-    padding:5px 15px;
-    border-radius: 200px;
-}
+
 .cross{
     font-size: 140%;
     color:#fff;

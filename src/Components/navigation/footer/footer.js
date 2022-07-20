@@ -31,7 +31,7 @@ const footer = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p className="footer-text">Restaurant Landline: (02) 8855-6139<br />Owners Contact No: 09271311257, 9670400900 <br />
+                        <p className="footer-text">Restaurant Landline: (02) 8855-6139<br />Owners Contact No: 09271311257, 09472484178 <br />
                             Email at us kuidaoreph@gmail.com <br />
                             &copy; COPYRIGHT 2022 by Kuidaore PH Japanese Restaurant<br /><br/>
                             Presented by Elisha Quiday and Yves Casio <img src={ramen} alt="Ramen" style={{ height: "22px", padding: "0 3px", float: "none" }} /></p>

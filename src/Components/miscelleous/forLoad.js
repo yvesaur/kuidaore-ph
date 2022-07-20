@@ -7,7 +7,7 @@ const forLoad=()=>{
     return(
         <div class="load-screen" >
             <h1>KUIDAORE</h1>
-            <h3>Eat until you drop.</h3>
+            <h3>"Eat until you drop."</h3>
             <Spinner/>
         </div>
     );

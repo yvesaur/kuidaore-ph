@@ -8,9 +8,6 @@ const grab_btn=(props)=>{
         <div className="grab">
         <Link   to={to} >{props.content}</Link>
         </div>
-        // <div className="grab">
-        //     <p>{props.content}</p>
-        // </div>
     );
 }
 
