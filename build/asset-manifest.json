@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e636b6d8.css",
-    "main.js": "/static/js/main.105d951e.js",
+    "main.js": "/static/js/main.843d7694.js",
     "static/media/rest1.jpg": "/static/media/rest1.0af9d51943ce85e61fa1.jpg",
     "static/media/specialoffer-banner.jpg": "/static/media/specialoffer-banner.cea4834ad65461e3701a.jpg",
     "static/media/cart.jpg": "/static/media/cart.221ec9db62f558f647b1.jpg",
@@ -26,10 +26,10 @@
     "static/media/miso-offer.jpg": "/static/media/miso-offer.743cfbca4e295e3c050e.jpg",
     "index.html": "/index.html",
     "main.e636b6d8.css.map": "/static/css/main.e636b6d8.css.map",
-    "main.105d951e.js.map": "/static/js/main.105d951e.js.map"
+    "main.843d7694.js.map": "/static/js/main.843d7694.js.map"
   },
   "entrypoints": [
     "static/css/main.e636b6d8.css",
-    "static/js/main.105d951e.js"
+    "static/js/main.843d7694.js"
   ]
 }
