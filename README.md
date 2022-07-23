@@ -1,4 +1,4 @@
-# RestaurantReactApp
+# KUIDAORE
 <hr/>
 <h2>E-Commerce final project: KUIDAORE Japanese Food E-commerce Website</h2>
 <p>
